@@ -328,13 +328,13 @@ class _DefaultFijkPanelState extends State<_DefaultFijkPanel> {
                                           decoration: BoxDecoration(
                                               shape: BoxShape.circle,
                                               border: Border.all(
-                                                  color: Colors.grey),
-                                              color: Colors.black26),
+                                                  color: Colors.white),
+                                              color: Colors.black12),
                                           child: Icon(
                                             _playing
                                                 ? Icons.pause
                                                 : Icons.play_arrow,
-                                            color: Colors.black,
+                                            color: Colors.white,
                                             size: barHeight * 2,
                                           ),
                                         ),
