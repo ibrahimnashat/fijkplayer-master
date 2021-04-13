@@ -324,7 +324,7 @@ class _DefaultFijkPanelState extends State<_DefaultFijkPanel> {
                                     duration: Duration(milliseconds: 400),
                                     child: InkWell(
                                         child: Container(
-                                          padding: EdgeInsets.all(10.0),
+                                          padding: EdgeInsets.all(5.0),
                                           decoration: BoxDecoration(
                                               shape: BoxShape.circle,
                                               border: Border.all(
@@ -335,7 +335,7 @@ class _DefaultFijkPanelState extends State<_DefaultFijkPanel> {
                                                 ? Icons.pause
                                                 : Icons.play_arrow,
                                             color: Colors.white,
-                                            size: barHeight * 2,
+                                            size: barHeight * 1.6,
                                           ),
                                         ),
                                         onTap: _playOrPause))
